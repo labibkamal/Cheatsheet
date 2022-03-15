@@ -13,7 +13,7 @@
 
     <!--Intro-->
     <p>The <span class='position'>position</span> property indicates how an element is positioned in relation to all other elements of a webpage. With it the user can control how and where an element will be displayed on a webpage in relation to other elements.</p>
-    <p> There are five different values that can be assigned to te position property.</p>
+    <p> There are five different values that can be assigned to the position property.</p>
     
     <!--List/Navigaton-->
     <ul class='list'>
@@ -27,9 +27,9 @@
     <table>
         <thead>
             <tr>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Top, Right, Bottom, Left, z-index compatible</th>
+                <th class='table-heading'>Name</th>
+                <th class='table-heading'>Description</th>
+                <th class='table-heading'>Top, Right, Bottom, Left, z-index compatible</th>
             </tr>
         </thead>
         <tbody>
@@ -45,14 +45,23 @@
             </tr>
             <tr>
                 <th>Fixed</th>
+                <td>Element is removed from normal flow and positioned relative to the viewport, appearing in the same place when scrolling.</td>
+                <td>Yes. Position is controlled by these.</td>
             </tr>
             <tr>
                 <th>Absolute</th>
+                <td>Element is positioned relative to it's nearest ancestor, or it's containing block</td>
+                <td>Yes</td>
             </tr>
             <tr>
                 <th>Sticky</th>
+                <td>Element is positioned based on user's scroll position. Toggles between relative to fixed when an offset position is met in viewport.</td>
+                <td>Yes. Used to positoin where element will be positioned after scrolling.</td>
             </tr>
         </tbody>
     </table>
+
+    <h2>Important Notes</h2>
+    <p><span class='viewport'>Viewport:</span> The visible area of a window screen that is currently being displayed. While the entire page may be rendered, the user sees the content in the viewport.</p>
 </body>
 </html>

@@ -10,10 +10,19 @@ body {
     font-weight: 700;
     color: maroon;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.position {
+    font-weight: bold;
+    color: red;
+    font-size: 30px;
 }
 table, td, th, tr{
     border: 1px solid;
     left: 200px;
+    border-collapse: collapse;
 }
 
 table {
@@ -30,6 +39,8 @@ p {
     margin: 0px 100px;
     line-height: 1.5;
     width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .list {
